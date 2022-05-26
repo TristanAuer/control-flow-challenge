@@ -165,18 +165,46 @@
 # If rating is less than or equal to 5, return "Avoid at all costs!". If rating is between 5 and 9, return "This one was fun.". If rating is 9 or above, return "Outstanding!"
 # Hint Use a series of if statements to test the different ranges. We can check each condition separately to determine which string to return.
 
-# Write your movie_review function here:
-def movie_review(rating):
-    if rating <= 5:
-        return "Avoid at all costs!"
-    elif 5 < rating < 9:
-        return "This one was fun."
-    elif rating >= 9:
-        return "Outstanding!"
-# Uncomment these function calls to test your movie_review function:
-print(movie_review(9))
-# should print "Outstanding!"
-print(movie_review(4))
-# should print "Avoid at all costs!"
-print(movie_review(6))
-# should print "This one was fun."
+# Write your movie_review function here: commented out line 169 to 182 uncomment to run code.
+# def movie_review(rating):
+#     if rating <= 5:
+#         return "Avoid at all costs!"
+#     elif 5 < rating < 9:
+#         return "This one was fun."
+#     elif rating >= 9:
+#         return "Outstanding!"
+# # Uncomment these function calls to test your movie_review function:
+# print(movie_review(9))
+# # should print "Outstanding!"
+# print(movie_review(4))
+# # should print "Avoid at all costs!"
+# print(movie_review(6))
+# # should print "This one was fun."
+
+#   next challenge
+
+# Create a function called max_num() that has three parameters named num1, num2, and num3.
+
+# The function should return the largest of these three numbers. If any of two numbers tie as the largest, you should return "It's a tie!".
+# HintYou can use if, elif, and else statements to accomplish this. For the first parameter, 
+# test if num1 is greater than num2 and that num1 is greater than num3. Repeat these tests for num2 and num3.
+
+# Write your max_num function here: commented out line 193 to 210 uncomment to run code.
+# def max_num(num1, num2, num3):
+#     if num1 > num2 and num1 > num3:
+#         return num1
+#     elif num2 > num3:
+#         return num2
+#     elif num2 == num3 or num2 == num1 or num1 == num3:
+#         return "It's a tie!"
+#     else:
+#         return num3
+# # Uncomment these function calls to test your max_num function:
+# print(max_num(-10, 0, 10))
+# # should print 10
+# print(max_num(-10, 5, -30))
+# # should print 5
+# print(max_num(-5, -10, -10))
+# # should print -5
+# print(max_num(2, 3, 3))
+# # should print "It's a tie!"
