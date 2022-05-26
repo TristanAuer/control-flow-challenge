@@ -117,3 +117,23 @@
 # print(in_range(5, 10, 20))
 # # should print False
 
+#   next challenge
+
+# Create a function named same_name() that has two parameters named your_name and my_name.
+
+# If our names are identical, return True. Otherwise, return False.
+# Hint In python, strings can be compared using the == operator.
+
+# Write your same_name function here: commented out line 128 to 137 uncomment to run code.
+# def same_name(your_name, my_name):
+#     if your_name == my_name:
+#         return True
+#     else:
+#         return False
+# # Uncomment these function calls to test your same_name function:
+# print(same_name("Colby", "Colby"))
+# # should print True
+# print(same_name("Tina", "Amber"))
+# # should print False
+
+#   next challenge
