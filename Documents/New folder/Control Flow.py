@@ -97,3 +97,23 @@
 # # should print False
 # print(not_sum_to_ten(5,5))
 # # should print False
+
+#   next challenge
+
+# Create a function named in_range() that has three parameters named num, lower, and upper.
+
+# The function should return True if num is greater than or equal to lower and less than or equal to upper. Otherwise, return False.
+# Hint Don’t forget to connect the >= and <= conditions with the boolean operator and.
+
+#rite your in_range function here: commented out line 109 to 118 uncomment to run code.
+# def in_range(num, lower, upper):
+#   if num >= lower and num <= upper:
+#     return True
+#   else:
+#     return False
+# # Uncomment these function calls to test your in_range function:
+# print(in_range(10, 10, 10))
+# # should print True
+# print(in_range(5, 10, 20))
+# # should print False
+
